@@ -1,0 +1,29 @@
+.taskBox{
+    width: 736px;
+    height: 72px;
+    margin: 0 auto;
+    background: var(--gray500);
+    border: 1 px solid var(--gray400);
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+  }
+  
+  .taskBox span{
+    margin-left: 20px;
+    color: var(--gray100);
+    font-size: 0.85rem;
+  }
+  
+  .taskBox img{
+    margin-left: 40%;
+    cursor: pointer;
+  }
+  
+  
